@@ -7,8 +7,8 @@ export function App() {
   return (
     <div className="relative bg-zinc-950 text-white/80">
       <div className="absolute flex h-full w-full">
-        <div className="absolute h-full w-full bg-gradient-to-t from-black via-transparent to-black" />
-        <div className="absolute h-full w-full bg-gradient-to-r from-black via-transparent to-black" />
+        <div className="absolute h-full w-full bg-gradient-to-t from-black via-transparent to-black/80" />
+        <div className="absolute h-full w-full bg-gradient-to-r from-black via-transparent to-black/50" />
         <div className="static h-full w-full bg-[url('src/assets/images/invert-image.png')] bg-right bg-no-repeat" />
         <div className="static h-full w-full bg-[url('src/assets/images/bg-image.png')] bg-left bg-no-repeat pr-[30rem]" />
       </div>
